@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Музыка">
+        <menu>
+            <item android:id="@+id/nav_favorite"
+                android:title="Любимые песни"
+                android:icon="@drawable/baseline_favorite_border_24"/>
+            <item android:title="Главная"
+                android:id="@+id/nav_home"
+                android:icon="@drawable/baseline_playlist_play_24"/>
+        </menu>
+    </item>
+    <item android:title="Аккаунт">
+        <menu>
+            <item android:id="@+id/nav_logout"
+                android:title="Выйти"
+                android:icon="@drawable/baseline_logout_24"/>
+        </menu>
+    </item>
+    <item android:id="@+id/nav_settings"
+        android:title="Настройки"
+        android:icon="@drawable/baseline_settings_24"/>
+
+
+</menu>
